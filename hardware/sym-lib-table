@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MIDAS")(type "KiCad")(uri "${KIPRJMOD}/lib/MIDAS.kicad_sym")(options "")(descr ""))
+  (lib (name "TAPTEMP")(type "KiCad")(uri "${KIPRJMOD}/lib/TAPTEMP.kicad_sym")(options "")(descr ""))
+)
