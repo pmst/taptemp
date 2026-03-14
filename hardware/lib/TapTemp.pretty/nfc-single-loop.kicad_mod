@@ -1,0 +1,146 @@
+(footprint "nfc-single-loop"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "53f08070-13fe-444c-a853-29831bbf9653")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "nfc-single-loop"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2eee8f7-a8cc-4377-aa54-c109458e5e36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bc65338-dc8f-470b-9607-504649a46139")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c87e2904-ea2a-401d-b6e2-963b32ee494b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -37 -20)
+		(end -37 4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "e7092d00-1094-4db9-ac0e-d1b2d1e75ccd")
+	)
+	(fp_line
+		(start -37 6)
+		(end -37 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "05352e82-00c0-4425-9173-71b3f8b8fe8a")
+	)
+	(fp_line
+		(start -37 20)
+		(end 37 20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "184475dc-9608-4b83-aaaa-31ce8b0940ec")
+	)
+	(fp_line
+		(start 0 -20)
+		(end -37 -20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "3d4b6d1e-95b7-40e7-9667-5ec7738664c4")
+	)
+	(fp_line
+		(start 37 -20)
+		(end 0 -20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "2395379b-54b4-44ad-98f6-7b5c16502a86")
+	)
+	(fp_line
+		(start 37 20)
+		(end 37 -20)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Cu")
+		(uuid "339053dc-e997-4c2e-90ab-13ae07029bb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "01009c7e-7fab-4569-8843-cb7b34e1fd6f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -37 4)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "1b4bee0c-7a51-40bf-94b6-3285495b0705")
+	)
+	(pad "2" smd roundrect
+		(at -37 6)
+		(size 1 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "5ca3c313-6af5-49a0-928e-f94ec40d63d0")
+	)
+	(embedded_fonts no)
+)
